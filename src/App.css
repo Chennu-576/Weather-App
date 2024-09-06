@@ -1,20 +1,20 @@
 .App {
   text-align: center;
-  background: #fcfbfe;
-  padding: 20px;
+  background: white;
+  padding: 10px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   width: 100%;
   max-width: 400px;
-  margin: 20px;
+  margin: 10px;
 }
 
-.App-logo {
-  height: 5vmin;
+.WeatherLogo {
+  height: 15vmin;
   pointer-events: none;
 }
 
-cd 
+
 
 h1 {
   color: #333;
@@ -30,22 +30,22 @@ form {
 input[type="text"] {
   padding: 10px;
   font-size: 16px;
-  border: 2px solid #007bff;
+  border: 2px solid #004cff;
   border-radius: 5px;
   outline: none;
   width: 100%;
 }
 
 input[type="text"]:focus {
-  border-color: #0056b3;
+  border-color: #5904ec;
 }
 
 button {
   padding: 10px;
   font-size: 16px;
   border: none;
-  background-color: #f5f9fe;
-  color: rgb(92, 64, 252);
+  background-color: rgb(57, 32, 249);
+  color: rgb(20, 136, 244);
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
@@ -53,14 +53,14 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: rgb(23, 33, 234);
 }
 
 .weather-info {
   margin-top: 20px;
   text-align: left;
   border-top: 2px solid #fafcfe;
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 .weather-info h2 {
@@ -70,7 +70,7 @@ button:hover {
 
 .weather-info p {
   font-size: 18px;
-  margin: 5px 0;
+  margin: 5px;
 }
 
 .error {

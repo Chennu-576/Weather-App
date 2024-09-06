@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import React, { useState } from 'react';
 import './index.css';
 import './App.css';
@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="App">
       <h1>Weather App</h1>
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src="/WeatherLogo.png" className="WeatherLogo" alt="Weather logo" />
       <form onSubmit={handleSearch}>
         <input
           type="text"
@@ -49,7 +49,7 @@ function App() {
           value={city}
           onChange={(e) => setCity(e.target.value)}
         />
-        <button type="submit">Submit</button>
+        <button type="submit">Search</button>
       </form>
       {error && <p className="error">{error}</p>}
       {weather && (
